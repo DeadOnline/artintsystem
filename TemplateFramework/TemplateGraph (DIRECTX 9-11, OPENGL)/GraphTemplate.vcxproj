@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{27DC5AD9-6791-4E5E-B7B0-472FCAC2EBBA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GraphTemplate</RootNamespace>
+    <ProjectName>TemplateGraph (DirectX 9-11, OpenGL)</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\RESOURCES\Dropbox\RESOURCES\DirectX11 SDK\Include;D:\RESOURCES\Dropbox\RESOURCES\DirectX9 SDK\Include;$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>D:\RESOURCES\Dropbox\RESOURCES\DirectX11 SDK\Lib\x86;D:\RESOURCES\Dropbox\RESOURCES\DirectX9 SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Build\out\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetExt>.lib</TargetExt>
+    <IntDir>$(SolutionDir)Build\temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir);D:\RESOURCES\Dropbox\RESOURCES\DirectX9 SDK\Include;D:\RESOURCES\Dropbox\RESOURCES\DirectX11 SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\RESOURCES\Dropbox\RESOURCES\DirectX9 SDK\Lib\x64;D:\RESOURCES\Dropbox\RESOURCES\DirectX11 SDK\Lib\x64;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Build\out\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetExt>.lib</TargetExt>
+    <IntDir>$(SolutionDir)Build\temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\out\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(ProjectDir);C:\Users\DeadOnline\Dropbox\RESOURCES\DirectX11 SDK\Include;C:\Users\DeadOnline\Dropbox\RESOURCES\DirectX9 SDK\Include;D:\Work\DropBox\RESOURCES\DirectX9 SDK\Include;D:\Work\DropBox\RESOURCES\DirectX11 SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Build\out\$(Platform)\$(Configuration);C:\Users\DeadOnline\Dropbox\RESOURCES\DirectX11 SDK\Lib\x86;C:\Users\DeadOnline\Dropbox\RESOURCES\DirectX9 SDK\Lib\x86;D:\Work\DropBox\RESOURCES\DirectX9 SDK\Lib\x86;D:\Work\DropBox\RESOURCES\DirectX11 SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Work\DropBox\RESOURCES\DirectX9 SDK\Include;D:\Work\DropBox\RESOURCES\DirectX11 SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Work\DropBox\RESOURCES\DirectX9 SDK\Lib\x64;D:\Work\DropBox\RESOURCES\DirectX11 SDK\Lib\x64;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Build\out\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GRAPHTEMPLATE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;d3dx10.lib;d3d11.lib;d3dx11.lib;d3dxof.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;d3dx10.lib;d3d11.lib;d3dx11.lib;d3dxof.lib;dxguid.lib;dinput8.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GRAPHTEMPLATE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;d3dx10.lib;d3d11.lib;d3dx11.lib;d3dxof.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <Lib>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;d3dx10.lib;d3d11.lib;d3dx11.lib;d3dxof.lib;dxguid.lib;dinput8.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GRAPHTEMPLATE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;d3dx10.lib;d3d11.lib;d3dx11.lib;d3dxof.lib;dxguid.lib;dinput8.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GRAPHTEMPLATE_EXPORTS;$(WindowsSDK_IncludePath);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;d3dx10.lib;d3d11.lib;d3dx11.lib;d3dxof.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX11\_inc\DirectX11.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Animations_X.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Cursor.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Effects.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Engine.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Frustum.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Geometry.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Globals.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Grid.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Lights.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Materials.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Objects.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Cameras.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_SceneController.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_SkyMap.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_TemplateMatrix.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Textstrings.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Textures.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Upscreen.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Cursor.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Animations.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Cameras.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Effects.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Frustum.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Geometry.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Lights.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Materials.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_SceneController.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Singleton.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Textstrings.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Textures.h" />
+    <ClInclude Include="GraphCore\Renderer\OpenGL\_inc\OpenGL.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Animations.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Cursor.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Grid.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Materials.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Renderer.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Cameras.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Effects.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Geometry.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Globals.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Lights.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Objects.h" />
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Objects.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\SceneController.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Singletons.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Textstrings.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Textures.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\UpScreen.h" />
+    <ClInclude Include="GraphCore\_inc\Enums.h" />
+    <ClInclude Include="GraphCore\Renderer\_inc\Frustum.h" />
+    <ClInclude Include="GraphCore\_inc\GraphCore.h" />
+    <ClInclude Include="GraphCore\_inc\GraphCoreMacroses.h" />
+    <ClInclude Include="GraphCore\_inc\Parameters.h" />
+    <ClInclude Include="GraphCore\_inc\TemplateMatrix.h" />
+    <ClInclude Include="GraphCore\_inc\WorldPosition.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX11\_src\DirectX11.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Animations_X.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Cameras.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Cursor.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Effects.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Engine.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Frustum.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Geometry.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Globals.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Grid.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Lights.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Materials.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_SceneController.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_SkyMap.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_TemplateMatrix.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Upscreen.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Textstrings.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Textures.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Objects.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Cameras.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Geometry.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Materials.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Objects.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_SceneController.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Textstrings.cpp" />
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Textures.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Animations.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Cameras.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Cursor.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Globals.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Grid.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Materials.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Objects.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Geometry.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Renderer.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\SceneController.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Singletons.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Textstrings.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Textures.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\UpScreen.cpp" />
+    <ClCompile Include="GraphCore\Renderer\_src\Frustum.cpp" />
+    <ClCompile Include="GraphCore\_src\GraphicsCore.cpp" />
+    <ClCompile Include="GraphCore\_src\Parameters.cpp" />
+    <ClCompile Include="GraphCore\_src\TemplateMatrix.cpp" />
+    <ClCompile Include="GraphCore\_src\WorldPosition.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GraphCore\_res\_models\_default.x" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GraphCore\_res\_materials\_default.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

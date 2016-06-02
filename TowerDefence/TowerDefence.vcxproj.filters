@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GameCore\_inc\Application.h" />
+    <ClInclude Include="GameCore\_inc\TowerDefenceMacroses.h" />
+    <ClInclude Include="GameCore\_inc\StateManager.h" />
+    <ClInclude Include="GameCore\_inc\StateObject.h" />
+    <ClInclude Include="GameCore\_inc\DominoRainSpawner.h" />
+    <ClInclude Include="GameCore\_inc\DominoRainMesh.h" />
+    <ClInclude Include="GameCore\_inc\LevelManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameCore\Game.cpp" />
+    <ClCompile Include="GameCore\_src\Application.cpp" />
+    <ClCompile Include="GameCore\_src\StateManager.cpp" />
+    <ClCompile Include="GameCore\_src\StateObject.cpp" />
+    <ClCompile Include="GameCore\_src\DominoRainSpawner.cpp" />
+    <ClCompile Include="GameCore\_src\DominoRainMesh.cpp" />
+    <ClCompile Include="GameCore\_inc\LevelManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameCore\_res\_models\ACTOR 1.x" />
+    <None Include="GameCore\_res\_models\ACTOR 2.x" />
+    <None Include="GameCore\_res\_models\ACTOR 3.x" />
+  </ItemGroup>
+</Project>

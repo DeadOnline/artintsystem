@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX11\_inc\DirectX11.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Animations_X.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Effects.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Engine.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Geometry.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Globals.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Grid.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Lights.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Objects.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Cameras.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Textstrings.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Textures.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Upscreen.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Animations.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Cameras.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Effects.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Geometry.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Lights.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Singleton.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Textstrings.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Textures.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\OpenGL\_inc\OpenGL.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Animations.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Renderer.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Cameras.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Effects.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Geometry.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Globals.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Lights.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Objects.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Objects.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Singletons.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Textstrings.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Textures.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\_inc\Enums.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\_inc\GraphCore.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\_inc\GraphCoreMacroses.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\_inc\WorldPosition.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Materials.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Materials.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Materials.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\SceneController.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Cursor.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_SkyMap.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\_inc\Parameters.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_SceneController.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_SceneController.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Cursor.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Cursor.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\UpScreen.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Grid.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\_inc\TemplateMatrix.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_TemplateMatrix.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\_inc\Frustum.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\_inc\DirectX_Frustum.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCore\Renderer\DirectX\DirectX9\_inc\DirectX9_Frustum.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphCore\_src\GraphicsCore.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\_src\WorldPosition.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Geometry.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Textures.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Objects.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Cameras.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX11\_src\DirectX11.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Cameras.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Effects.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Engine.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Geometry.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Grid.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Lights.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Objects.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Textstrings.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Textures.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Upscreen.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Globals.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Cameras.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Geometry.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Globals.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Renderer.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Textures.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Animations_X.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Objects.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Singletons.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Materials.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Materials.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Materials.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\SceneController.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Cursor.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_SkyMap.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_SceneController.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_SceneController.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Cursor.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\UpScreen.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Grid.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\_src\Parameters.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Animations.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Textstrings.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\_src\DirectX_Textstrings.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\_src\TemplateMatrix.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_TemplateMatrix.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\_src\Frustum.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCore\Renderer\DirectX\DirectX9\_src\DirectX9_Frustum.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GraphCore\_res\_models\_default.x" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GraphCore\_res\_materials\_default.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

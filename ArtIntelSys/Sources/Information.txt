@@ -1,0 +1,64 @@
+			char *db_name="Database.dblite";
+			sqlite3 *db;
+			char *zErrMsg = 0;
+			int error;
+
+			//------------------------------
+			//Создание или открытие БД
+			//------------------------------
+			error = sqlite3_open(db_name, &db);
+			if ( error )
+				{
+				cout<<"Can't open database: "<<sqlite3_errmsg(db)<<endl;
+				sqlite3_close(db);
+				}
+
+			//------------------------------
+			//Создание таблицы
+			//------------------------------
+			//Если таблица уже создана, то эта конструкция будет выдавать ошибку!
+			error = sqlite3_exec(db, "CREATE TABLE table1 (id INTEGER PRIMARY KEY,field1 TEXT,field2 TEXT);", NULL, 0, &zErrMsg);
+			if ( error )
+				{
+				cout<<"Can't create table: "<<sqlite3_errmsg(db)<<endl;
+				sqlite3_close(db);
+				}
+
+			//------------------------------
+			//Ввод данных в таблицу
+			//------------------------------
+			error = sqlite3_exec(db, "INSERT INTO table1(field1, field2) VALUES ('Super', 'SQL');", NULL, 0, &zErrMsg);
+			if ( error )
+				{
+				cout<<"Can't insert data to table: "<<sqlite3_errmsg(db)<<endl;
+				sqlite3_close(db);
+				}
+
+			//------------------------------
+			//Выборка данных из базы
+			//------------------------------
+			sqlite3_stmt    *res;
+			const char      *tail;
+
+			error = sqlite3_prepare_v2(db,"SELECT field1, field2, id from table1 order by id", 1000, &res, &tail);
+			if ( error )
+				{
+				cout<<"Can't select data: "<<sqlite3_errmsg(db)<<endl;
+				sqlite3_close(db);
+				}
+			//Отображаем на экране
+			cout << "Display result from table1" << endl;
+			int     rec_count = 0;
+			while (sqlite3_step(res) == SQLITE_ROW)
+				{
+				const unsigned char* _res1 = sqlite3_column_text(res, 0);
+				const unsigned char* _res2 = sqlite3_column_text(res, 1);
+				const unsigned char* _res3 = sqlite3_column_text(res, 2);
+
+				rec_count++;
+				}
+
+			//------------------------------
+			//Корректное завершение работы с БД
+			//------------------------------
+			sqlite3_close(db);

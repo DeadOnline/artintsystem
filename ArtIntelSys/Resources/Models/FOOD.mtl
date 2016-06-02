@@ -1,0 +1,43 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 25.02.2014 00:11:28
+
+newmtl FRAME
+	Ns 10.000000
+	Ni 1.500000
+	d 0.500000
+	Tr 0.500000
+	Tf 0.500000 0.500000 0.500000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl APPLE
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\DeadOnline\Desktop\food002\02app2.jpg
+	map_Kd C:\Users\DeadOnline\Desktop\food002\02app2.jpg
+	map_Ks C:\Users\DeadOnline\Desktop\food002\02app2b.jpg
+
+newmtl LEAF
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\DeadOnline\Desktop\food002\02l1.jpg
+	map_Kd C:\Users\DeadOnline\Desktop\food002\02l1.jpg

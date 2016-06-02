@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TemplateGraphicsCore.cpp">
+      <Filter>DirectX9 Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateInputCore.cpp">
+      <Filter>DirectX9 Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ARTINTELSYSAPPLICATION.cpp">
+      <Filter>Artificial Intelligence</Filter>
+    </ClCompile>
+    <ClCompile Include="DATABASE.cpp">
+      <Filter>Artificial Intelligence</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Artificial Intelligence</Filter>
+    </ClCompile>
+    <ClCompile Include="MODULES.cpp">
+      <Filter>Artificial Intelligence</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="LOG.cpp">
+      <Filter>Artificial Intelligence</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TemplateGraphicsCore.h">
+      <Filter>DirectX9 Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateInputCore.h">
+      <Filter>DirectX9 Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Console_Resources_Macroses.h">
+      <Filter>Macroses</Filter>
+    </ClInclude>
+    <ClInclude Include="Console_Resources_Strings.h">
+      <Filter>Macroses</Filter>
+    </ClInclude>
+    <ClInclude Include="Local_Files_List.h">
+      <Filter>Macroses</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ALL.h">
+      <Filter>Artificial Intelligence</Filter>
+    </ClInclude>
+    <ClInclude Include="ARTINTELSYSAPPLICATION.h">
+      <Filter>Artificial Intelligence</Filter>
+    </ClInclude>
+    <ClInclude Include="DATABASE.h">
+      <Filter>Artificial Intelligence</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Artificial Intelligence</Filter>
+    </ClInclude>
+    <ClInclude Include="MODULES.h">
+      <Filter>Artificial Intelligence</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="LOG.h">
+      <Filter>Artificial Intelligence</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DirectX9 Engine">
+      <UniqueIdentifier>{114e2eb4-d164-4741-bd81-aad6d4b042d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Macroses">
+      <UniqueIdentifier>{364658f9-f961-4eef-b7eb-e5127ca1a732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{5675ccbb-552f-4b4f-aa5a-f7dcd0bb502b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Artificial Intelligence">
+      <UniqueIdentifier>{94868684-16a2-40e6-a585-d7b05844631b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{b434f1a4-28ac-4ff8-8a2a-c6c5b6ff292d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArtIntelSys.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\Icons\ArtIntelSys256.ico" />
+  </ItemGroup>
+</Project>

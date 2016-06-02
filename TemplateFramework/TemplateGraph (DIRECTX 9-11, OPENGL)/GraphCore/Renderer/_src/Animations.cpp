@@ -1,0 +1,4 @@
+#include "../_inc/Animations.h"
+
+GRAPHCORE::ANIMATIONS::ANIMATIONS () {}
+GRAPHCORE::ANIMATIONS::~ANIMATIONS () {}
